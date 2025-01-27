@@ -8,6 +8,7 @@ from PIL import Image
 from huggingface_hub import login
 
 # Log in with your Hugging Face token
+# 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
 login("Replace with your actual token")  # Replace with your actual token
 
 # Load the pipeline
