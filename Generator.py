@@ -8,7 +8,7 @@ from PIL import Image
 from huggingface_hub import login
 
 # Log in with your Hugging Face token
-login("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")  # Replace with your actual token
+login("Replace with your actual token")  # Replace with your actual token
 
 # Load the pipeline
 pipe = StableDiffusionXLImg2ImgPipeline.from_pretrained(
